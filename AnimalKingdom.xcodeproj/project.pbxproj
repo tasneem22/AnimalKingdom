@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432B893673E8D20359C93075 /* Pods_AnimalKingdom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6D9EEE270E0EDB9356CD91 /* Pods_AnimalKingdom.framework */; };
 		6D19D3DE28074A9700FA1799 /* AnimalKingdomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19D3DD28074A9700FA1799 /* AnimalKingdomApp.swift */; };
 		6D19D3E028074A9700FA1799 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19D3DF28074A9700FA1799 /* ContentView.swift */; };
 		6D19D3E228074A9A00FA1799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D19D3E128074A9A00FA1799 /* Assets.xcassets */; };
 		6D19D3E528074A9A00FA1799 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D19D3E428074A9A00FA1799 /* Preview Assets.xcassets */; };
+		6D19D3F828074DFC00FA1799 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19D3EC28074DF900FA1799 /* Animal.swift */; };
+		6D19D3F928074DFC00FA1799 /* AnimalListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19D3EE28074DFA00FA1799 /* AnimalListViewModel.swift */; };
+		6D19D3FA28074DFC00FA1799 /* AnimalCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19D3EF28074DFA00FA1799 /* AnimalCellViewModel.swift */; };
+		6D19D3FB28074DFC00FA1799 /* AnimalRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19D3F128074DFB00FA1799 /* AnimalRepo.swift */; };
+		6D19D3FC28074DFC00FA1799 /* AnimalsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19D3F328074DFC00FA1799 /* AnimalsList.swift */; };
+		6D19D3FD28074DFC00FA1799 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19D3F428074DFC00FA1799 /* Home.swift */; };
+		6D19D40028074DFC00FA1799 /* AnimalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19D3F728074DFC00FA1799 /* AnimalDetail.swift */; };
+		6D19D40228074E8A00FA1799 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D19D40128074E8A00FA1799 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,17 @@
 		6D19D3DF28074A9700FA1799 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D19D3E128074A9A00FA1799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D19D3E428074A9A00FA1799 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D19D3EC28074DF900FA1799 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		6D19D3EE28074DFA00FA1799 /* AnimalListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalListViewModel.swift; sourceTree = "<group>"; };
+		6D19D3EF28074DFA00FA1799 /* AnimalCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalCellViewModel.swift; sourceTree = "<group>"; };
+		6D19D3F128074DFB00FA1799 /* AnimalRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalRepo.swift; sourceTree = "<group>"; };
+		6D19D3F328074DFC00FA1799 /* AnimalsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsList.swift; sourceTree = "<group>"; };
+		6D19D3F428074DFC00FA1799 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6D19D3F728074DFC00FA1799 /* AnimalDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetail.swift; sourceTree = "<group>"; };
+		6D19D40128074E8A00FA1799 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B6D9EEE270E0EDB9356CD91 /* Pods_AnimalKingdom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalKingdom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0D17D08450F5F573780475 /* Pods-AnimalKingdom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalKingdom.release.xcconfig"; path = "Target Support Files/Pods-AnimalKingdom/Pods-AnimalKingdom.release.xcconfig"; sourceTree = "<group>"; };
+		F9661B0A2FCCF0A4896807E8 /* Pods-AnimalKingdom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalKingdom.debug.xcconfig"; path = "Target Support Files/Pods-AnimalKingdom/Pods-AnimalKingdom.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432B893673E8D20359C93075 /* Pods_AnimalKingdom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A528490272E1BCD0C772DE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9661B0A2FCCF0A4896807E8 /* Pods-AnimalKingdom.debug.xcconfig */,
+				DD0D17D08450F5F573780475 /* Pods-AnimalKingdom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6D19D3D128074A9700FA1799 = {
 			isa = PBXGroup;
 			children = (
 				6D19D3DC28074A9700FA1799 /* AnimalKingdom */,
 				6D19D3DB28074A9700FA1799 /* Products */,
+				5A528490272E1BCD0C772DE9 /* Pods */,
+				76D3075EBF5844376A97BD7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +83,11 @@
 		6D19D3DC28074A9700FA1799 /* AnimalKingdom */ = {
 			isa = PBXGroup;
 			children = (
+				6D19D40128074E8A00FA1799 /* GoogleService-Info.plist */,
+				6D19D3EB28074DF900FA1799 /* Models */,
+				6D19D3F028074DFB00FA1799 /* Repos */,
+				6D19D3ED28074DFA00FA1799 /* ViewModels */,
+				6D19D3F228074DFC00FA1799 /* Views */,
 				6D19D3DD28074A9700FA1799 /* AnimalKingdomApp.swift */,
 				6D19D3DF28074A9700FA1799 /* ContentView.swift */,
 				6D19D3E128074A9A00FA1799 /* Assets.xcassets */,
@@ -67,6 +104,49 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6D19D3EB28074DF900FA1799 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D19D3EC28074DF900FA1799 /* Animal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D19D3ED28074DFA00FA1799 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6D19D3EE28074DFA00FA1799 /* AnimalListViewModel.swift */,
+				6D19D3EF28074DFA00FA1799 /* AnimalCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6D19D3F028074DFB00FA1799 /* Repos */ = {
+			isa = PBXGroup;
+			children = (
+				6D19D3F128074DFB00FA1799 /* AnimalRepo.swift */,
+			);
+			path = Repos;
+			sourceTree = "<group>";
+		};
+		6D19D3F228074DFC00FA1799 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D19D3F328074DFC00FA1799 /* AnimalsList.swift */,
+				6D19D3F428074DFC00FA1799 /* Home.swift */,
+				6D19D3F728074DFC00FA1799 /* AnimalDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76D3075EBF5844376A97BD7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B6D9EEE270E0EDB9356CD91 /* Pods_AnimalKingdom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D19D3E828074A9A00FA1799 /* Build configuration list for PBXNativeTarget "AnimalKingdom" */;
 			buildPhases = (
+				B9D9D4ED4E16BE746B4BC63C /* [CP] Check Pods Manifest.lock */,
 				6D19D3D628074A9700FA1799 /* Sources */,
 				6D19D3D728074A9700FA1799 /* Frameworks */,
 				6D19D3D828074A9700FA1799 /* Resources */,
+				BF5A561638D60368422800FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +209,68 @@
 			files = (
 				6D19D3E528074A9A00FA1799 /* Preview Assets.xcassets in Resources */,
 				6D19D3E228074A9A00FA1799 /* Assets.xcassets in Resources */,
+				6D19D40228074E8A00FA1799 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9D9D4ED4E16BE746B4BC63C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalKingdom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF5A561638D60368422800FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalKingdom/Pods-AnimalKingdom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalKingdom/Pods-AnimalKingdom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimalKingdom/Pods-AnimalKingdom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D19D3D628074A9700FA1799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D19D40028074DFC00FA1799 /* AnimalDetail.swift in Sources */,
+				6D19D3F928074DFC00FA1799 /* AnimalListViewModel.swift in Sources */,
 				6D19D3E028074A9700FA1799 /* ContentView.swift in Sources */,
+				6D19D3FA28074DFC00FA1799 /* AnimalCellViewModel.swift in Sources */,
 				6D19D3DE28074A9700FA1799 /* AnimalKingdomApp.swift in Sources */,
+				6D19D3FC28074DFC00FA1799 /* AnimalsList.swift in Sources */,
+				6D19D3F828074DFC00FA1799 /* Animal.swift in Sources */,
+				6D19D3FD28074DFC00FA1799 /* Home.swift in Sources */,
+				6D19D3FB28074DFC00FA1799 /* AnimalRepo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +393,7 @@
 		};
 		6D19D3E928074A9A00FA1799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9661B0A2FCCF0A4896807E8 /* Pods-AnimalKingdom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +422,7 @@
 		};
 		6D19D3EA28074A9A00FA1799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0D17D08450F5F573780475 /* Pods-AnimalKingdom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
