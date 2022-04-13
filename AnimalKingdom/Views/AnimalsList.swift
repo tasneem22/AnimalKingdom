@@ -38,6 +38,7 @@ struct AnimalCell: View{
                     .toolbar {
                         Button("Save") {
                             animalCellVM.update(animal: animalCellVM.animal)
+                            
                         }
                     },
                 label: {
