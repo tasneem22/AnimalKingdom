@@ -9,22 +9,31 @@ import SwiftUI
 struct AnimalDetails: View {
     @State var animalCellVM: AnimalCellViewModel
     var body: some View {
-        NavigationView {
-            Text(animalCellVM.animal.firstName + animalCellVM.animal.lastName )
-            AsyncImage(url: URL(string: animalCellVM.animal.avatar)) { image in
-                image.resizable()
-            } placeholder: {
-                ProgressView()
-            }
-            .frame(width: 50, height: 50)
+        VStack(alignment: .leading, spacing: 4){
+            Text("FirstName LastName").foregroundColor(.gray)
+            Text(animalCellVM.animal.firstName + " " + animalCellVM.animal.lastName ) .foregroundColor(.gray)
+            Text("").foregroundColor(.gray)
+
+            Text("Title").foregroundColor(.gray)
             TextField("title ", text: $animalCellVM.animal.title)
-                .navigationTitle("Animal Detail")
-                                .toolbar {
-                                    Button("Save") {
-                                        print("Help tapped!")
-                                    }
-                                }
-        }
+            Spacer()
+
+            AsyncImage( url: URL(string: animalCellVM.animal.avatar),
+                           content: { image in
+                               image.resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(maxWidth: 300, maxHeight: 100)
+                           },
+                           placeholder: { Text("Loading ...") }
+                        )
+                       .frame(idealHeight: UIScreen.main.bounds.width / 2 * 3)
+                      
+            Spacer()
+            Text("Bio").foregroundColor(.gray)
+            Text(animalCellVM.animal.bio).foregroundColor(.gray)
+        }.padding()
+            
+        
         
     }
 }

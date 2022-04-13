@@ -36,6 +36,7 @@
 		6D19D3F428074DFC00FA1799 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		6D19D3F728074DFC00FA1799 /* AnimalDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetail.swift; sourceTree = "<group>"; };
 		6D19D40128074E8A00FA1799 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6D19D4032807679100FA1799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8B6D9EEE270E0EDB9356CD91 /* Pods_AnimalKingdom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalKingdom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0D17D08450F5F573780475 /* Pods-AnimalKingdom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalKingdom.release.xcconfig"; path = "Target Support Files/Pods-AnimalKingdom/Pods-AnimalKingdom.release.xcconfig"; sourceTree = "<group>"; };
 		F9661B0A2FCCF0A4896807E8 /* Pods-AnimalKingdom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalKingdom.debug.xcconfig"; path = "Target Support Files/Pods-AnimalKingdom/Pods-AnimalKingdom.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		6D19D3DC28074A9700FA1799 /* AnimalKingdom */ = {
 			isa = PBXGroup;
 			children = (
+				6D19D4032807679100FA1799 /* Info.plist */,
 				6D19D40128074E8A00FA1799 /* GoogleService-Info.plist */,
 				6D19D3EB28074DF900FA1799 /* Models */,
 				6D19D3F028074DFB00FA1799 /* Repos */,
@@ -402,6 +404,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AnimalKingdom/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalKingdom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,6 +434,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AnimalKingdom/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalKingdom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

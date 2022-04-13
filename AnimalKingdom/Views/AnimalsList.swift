@@ -34,14 +34,21 @@ struct AnimalCell: View{
     var body: some View{
         HStack{
             NavigationLink(
-                destination: AnimalDetails(animalCellVM: animalCellVM),
+                destination: AnimalDetails(animalCellVM: animalCellVM)
+                    .toolbar {
+                        Button("Save") {
+                            animalCellVM.update(animal: animalCellVM.animal)
+                        }
+                    },
                 label: {
                     VStack(alignment: .leading){
                         Text(animalCellVM.animal.firstName + " " + animalCellVM.animal.lastName)
                         .font(.system(size: 20, weight: .bold, design: .rounded))
            
                     }
+                    
                 })
+            
         }
     }
 }
